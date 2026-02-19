@@ -250,24 +250,24 @@ This EDA report presents comprehensive analysis of 3,547 coffee shop transaction
 ## 6. KEY FINDINGS SUMMARY
 
 ### Revenue & Performance
-✅ Total revenue: $112,245.58 across 3,547 transactions
-✅ Consistent average transaction ($31.65) with low volatility
-✅ Premium products drive 46% of revenue from 40% of sales
+ *Total revenue: $112,245.58 across 3,547 transactions
+ *Consistent average transaction ($31.65) with low volatility
+ *Premium products drive 46% of revenue from 40% of sales
 
 ### Product Insights
-✅ Coffee with Milk category dominates (66% of sales)
-✅ Top 2 products (Americano with Milk, Latte) represent 44% of volume
-✅ Non-coffee items perform best in evening (+138% vs morning)
+*Coffee with Milk category dominates (66% of sales)
+*Top 2 products (Americano with Milk, Latte) represent 44% of volume
+*Non-coffee items perform best in evening (+138% vs morning)
 
 ### Temporal Patterns
-✅ Tuesday is highest revenue day ($18,168)
-✅ 10 AM is peak hour (323 transactions)
-✅ Q1 strongest quarter (31.6% of annual revenue)
+*Tuesday is highest revenue day ($18,168)
+*10 AM is peak hour (323 transactions)
+*Q1 strongest quarter (31.6% of annual revenue)
 
 ### Opportunities
-✅ Weekend revenue growth potential (current 25%, target 30-35%)
-✅ Off-peak hour promotions (6-8 AM, 20-22 PM)
-✅ Evening non-coffee item marketing
+* Weekend revenue growth potential (current 25%, target 30-35%)
+* Off-peak hour promotions (6-8 AM, 20-22 PM)
+* Evening non-coffee item marketing
 
 ---
 
