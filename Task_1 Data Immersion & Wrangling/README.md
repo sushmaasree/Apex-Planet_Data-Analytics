@@ -1,6 +1,6 @@
 # ☕ Coffee Sales Data Immersion & Wrangling Project
 
-## 📋 Project Overview
+##  Project Overview
 This project demonstrates comprehensive data wrangling and preparation skills on a coffee shop sales dataset. The analysis covers data acquisition, quality assessment, cleaning, transformation, and preparation for business intelligence.
 
 **Internship Task:** Data Immersion & Wrangling  
@@ -96,36 +96,6 @@ Created 10 new features for enhanced analysis:
 
 ### Step 5: Output Generation
 Generated multiple analysis-ready datasets and summaries
-
----
-
-## 📁 Project Structure
-
-```
-coffee-sales-analysis/
-│
-├── data/
-│   ├── raw/
-│   │   └── Coffe_sales.csv                    # Original dataset
-│   ├── cleaned/
-│   │   ├── Coffee_Sales_Cleaned.csv           # Full cleaned dataset
-│   │   └── Coffee_Sales_Analysis_Ready.csv    # Analysis-optimized version
-│   └── summaries/
-│       ├── daily_sales_summary.csv            # Daily aggregations
-│       ├── product_performance_summary.csv    # Product metrics
-│       └── hourly_sales_pattern.csv           # Hourly patterns
-│
-├── scripts/
-│   ├── 01_data_exploration.py                 # Initial data exploration
-│   └── 02_data_cleaning_script.py             # Complete cleaning pipeline
-│
-├── documentation/
-│   ├── Data_Dictionary.md                     # Comprehensive data dictionary
-│   ├── Data_Quality_Assessment.md             # Quality assessment report
-│   └── Cleaning_Report.txt                    # Cleaning summary
-│
-└── README.md                                   # This file
-```
 
 ---
 
