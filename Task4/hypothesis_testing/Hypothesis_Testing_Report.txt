@@ -1,0 +1,54 @@
+
+HYPOTHESIS TESTING SUMMARY REPORT
+==================================
+Date: February 27, 2026
+Dataset: Coffee Sales (n=3,547 transactions)
+Significance Level: α = 0.05
+
+TEST RESULTS:
+=============
+
+1. PREMIUM VS STANDARD PRODUCTS
+   Null Hypothesis: Equal mean values
+   Test: Two-sample T-test
+   Result: REJECT H0
+   P-value: 0.000000
+   Conclusion: Premium products have $7.92 higher average
+   
+2. EVENING VS MORNING TRANSACTIONS
+   Null Hypothesis: Equal mean values
+   Test: Two-sample T-test
+   Result: REJECT H0
+   P-value: 0.000000
+   Conclusion: Evening $2.47 higher than morning
+   
+3. WEEKEND VS WEEKDAY
+   Null Hypothesis: Equal mean values
+   Test: Two-sample T-test
+   Result: FAIL TO REJECT H0
+   P-value: 0.616764
+   Conclusion: No significant difference
+   
+4. PRODUCT CATEGORY IMPACT
+   Null Hypothesis: All categories equal mean
+   Test: One-way ANOVA
+   Result: REJECT H0
+   P-value: 0.000000
+   Conclusion: Categories significantly different
+   
+5. DAY OF WEEK DISTRIBUTION
+   Null Hypothesis: Uniform distribution
+   Test: Chi-square Goodness of Fit
+   Result: REJECT H0
+   P-value: 0.000033
+   Conclusion: Non-uniform distribution (peak: Tue)
+
+BUSINESS RECOMMENDATIONS:
+=========================
+1. Focus on premium product marketing (statistically validated higher value)
+2. Implement evening-focused promotions (significantly higher transactions)
+3. Promote non-coffee items (highest average value: $35.83)
+4. Optimize staffing by day of week (significant variation)
+5. Weekend strategy should focus on volume, not pricing
+
+All findings validated at 95% confidence level (α = 0.05)

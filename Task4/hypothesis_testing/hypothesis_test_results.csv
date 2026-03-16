@@ -1,0 +1,6 @@
+Hypothesis,Test,Test_Statistic,P_Value,Result,Conclusion
+Premium vs Standard Values,Two-sample T-test,78.0132,0.000000,Reject H0,Premium products significantly higher
+Evening vs Morning Values,Two-sample T-test,12.7150,0.000000,Reject H0,Evening significantly higher
+Weekend vs Weekday Values,Two-sample T-test,-0.5005,0.616764,Fail to Reject,Weekend/Weekday similar
+Product Category Impact,One-way ANOVA,1753.4605,0.000000,Reject H0,Categories significantly different
+Day of Week Distribution,Chi-square Goodness of Fit,30.3710,0.000033,Reject H0,Distribution not uniform
