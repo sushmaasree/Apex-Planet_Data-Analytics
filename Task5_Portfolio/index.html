@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Narala Sushmaa Sree - Data Analyst Portfolio showcasing 60-day internship project with Python, SQL, Machine Learning">
+    <meta name="keywords" content="Data Analytics, Python, SQL, Machine Learning, Portfolio, Sushmaa Sree">
+    <meta name="author" content="Narala Sushmaa Sree">
+    <title>Sushmaa Sree - Data Analyst Portfolio</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Navigation */
+        nav {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #667eea;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* Sections */
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-card h3 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .skill-badge {
+            background: #f0f0f0;
+            padding: 0.8rem;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            transition: transform 0.3s, background 0.3s;
+        }
+        
+        .skill-badge:hover {
+            transform: translateY(-5px);
+            background: #667eea;
+            color: white;
+        }
+        
+        /* Projects */
+        .project-card {
+            border-left: 4px solid #667eea;
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .project-card h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .project-card .timeline {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        
+        .project-links {
+            margin-top: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 1rem;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+        }
+        
+        /* Contact */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .contact-card {
+            text-align: center;
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+        
+        .contact-card i {
+            font-size: 2rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .stats-grid,
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Narala Sushmaa Sree</h1>
+        <p>Data Analyst | Python • SQL • Machine Learning</p>
+        <p>📍 Hyderabad, India | 🎓 B.Tech CSE (AI/ML) | CGPA: 9.18</p>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#tasks">Tasks</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>👋 About Me</h2>
+            <p>
+                I'm a final-year B.Tech Computer Science student specializing in AI/ML at Malla Reddy University. 
+                Through a 60-day data analytics internship with ApexPlanet Software, I demonstrated my ability to 
+                transform raw data into actionable business insights that drive measurable revenue growth.
+            </p>
+            <p style="margin-top: 1rem;">
+                <strong>What I bring:</strong> A unique blend of technical skills (Python, SQL, ML), statistical rigor 
+                (hypothesis testing, validation), and business acumen (revenue optimization, KPI development). 
+                I don't just analyze data – I tell stories that drive decisions.
+            </p>
+        </section>
+        
+        <!-- Project Impact -->
+        <section id="project">
+            <h2>📊 Project Impact</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>$26,741</h3>
+                    <p>Revenue Growth Identified</p>
+                </div>
+                <div class="stat-card">
+                    <h3>3,547</h3>
+                    <p>Transactions Analyzed</p>
+                </div>
+                <div class="stat-card">
+                    <h3>4</h3>
+                    <p>Customer Segments</p>
+                </div>
+                <div class="stat-card">
+                    <h3>35%</h3>
+                    <p>ROI (Year 1)</p>
+                </div>
+                <div class="stat-card">
+                    <h3>20+</h3>
+                    <p>Visualizations Created</p>
+                </div>
+                <div class="stat-card">
+                    <h3>15</h3>
+                    <p>SQL Queries Written</p>
+                </div>
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Data Quality</p>
+                </div>
+                <div class="stat-card">
+                    <h3>95%</h3>
+                    <p>Statistical Confidence</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills -->
+        <section id="skills">
+            <h2>🛠️ Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-badge">Python</div>
+                <div class="skill-badge">SQL</div>
+                <div class="skill-badge">Pandas</div>
+                <div class="skill-badge">NumPy</div>
+                <div class="skill-badge">Scikit-learn</div>
+                <div class="skill-badge">Matplotlib</div>
+                <div class="skill-badge">Seaborn</div>
+                <div class="skill-badge">Statistical Testing</div>
+                <div class="skill-badge">Machine Learning</div>
+                <div class="skill-badge">Data Visualization</div>
+                <div class="skill-badge">Tableau</div>
+                <div class="skill-badge">Git/GitHub</div>
+            </div>
+        </section>
+        
+        <!-- Tasks -->
+        <section id="tasks">
+            <h2>📁 Project Tasks</h2>
+            
+            <div class="project-card">
+                <h3>Task 1: Data Immersion & Wrangling</h3>
+                <p class="timeline">Days 1-10 | Status: ✅ Complete</p>
+                <p>
+                    Achieved 100% data completeness through systematic cleaning and validation. 
+                    Engineered 10 new features and created comprehensive data dictionary.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/SushmaaSree/task1" class="btn">View Code</a>
+                    <a href="https://github.com/SushmaaSree/task1#readme" class="btn">Documentation</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h3>Task 2: Exploratory Data Analysis & Business Intelligence</h3>
+                <p class="timeline">Days 11-24 | Status: ✅ Complete</p>
+                <p>
+                    Conducted comprehensive EDA with 15 SQL queries (exceeded 5-7 requirement). 
+                    Created 11 professional visualizations revealing key business patterns.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/SushmaaSree/task2" class="btn">View Code</a>
+                    <a href="https://github.com/SushmaaSree/task2#readme" class="btn">SQL Queries</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h3>Task 3: Deep-Dive Analysis & Interactive Dashboarding</h3>
+                <p class="timeline">Days 25-36 | Status: ✅ Complete</p>
+                <p>
+                    Defined 5 core KPIs, discovered 4 customer segments using K-Means clustering, 
+                    and designed comprehensive dashboard specification.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/SushmaaSree/task3" class="btn">View Code</a>
+                    <a href="https://github.com/SushmaaSree/task3#readme" class="btn">Dashboard Spec</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h3>Task 4: Data Storytelling & Statistical Validation</h3>
+                <p class="timeline">Days 37-44 | Status: ✅ Complete</p>
+                <p>
+                    Synthesized all findings into compelling business narrative. 
+                    Validated recommendations with 5 hypothesis tests at 95% confidence.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/SushmaaSree/task4" class="btn">View Code</a>
+                    <a href="https://github.com/SushmaaSree/task4#readme" class="btn">Presentation</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Key Findings -->
+        <section>
+            <h2>💡 Key Business Insights</h2>
+            <ul style="list-style-position: inside; line-height: 2;">
+                <li><strong>Customer Segmentation:</strong> Evening High-Value Shoppers (29% of customers, 32% of revenue)</li>
+                <li><strong>Revenue Opportunity:</strong> Off-peak hours represent $5,895 untapped annual revenue</li>
+                <li><strong>Statistical Proof:</strong> Premium products cost $7.92 more on average (p < 0.001)</li>
+                <li><strong>Seasonal Pattern:</strong> Q2 revenue 35% below Q1 (major opportunity identified)</li>
+                <li><strong>Strategic Roadmap:</strong> 3-phase plan with 35% ROI and 9-month break-even</li>
+            </ul>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact">
+            <h2>📞 Get In Touch</h2>
+            <p>I'm actively seeking Data Analyst opportunities. Let's connect!</p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>📧 Email</h3>
+                    <p>your.email@example.com</p>
+                    <a href="mailto:your.email@example.com" class="btn">Send Email</a>
+                </div>
+                <div class="contact-card">
+                    <h3>💼 LinkedIn</h3>
+                    <p>Connect professionally</p>
+                    <a href="https://linkedin.com/in/sushmaa-sree" class="btn">Connect</a>
+                </div>
+                <div class="contact-card">
+                    <h3>🐙 GitHub</h3>
+                    <p>View all projects</p>
+                    <a href="https://github.com/SushmaaSree" class="btn">View Code</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Narala Sushmaa Sree. All Rights Reserved.</p>
+        <p style="margin-top: 0.5rem;">Built with ❤️ using GitHub Pages</p>
+    </footer>
+</body>
+</html>
