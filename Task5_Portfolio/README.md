@@ -10,10 +10,10 @@
 
 ## 👋 About Me
 
-I'm **Narala Sushmaa Sree**, a final-year B.Tech Computer Science student specializing in AI/ML at Malla Reddy University (CGPA: 9.18). Through this 60-day data analytics internship with ApexPlanet Software, I've demonstrated my ability to transform raw data into actionable business insights that drive real revenue growth.
+I'm **Narala Sushmaa Sree**, a final-year B.Tech Computer Science student specializing in AI/ML at Malla Reddy University (CGPA: 9.28). Through this 60-day data analytics internship with ApexPlanet Software, I've demonstrated my ability to transform raw data into actionable business insights that drive real revenue growth.
 
 **Location:** Hyderabad, Telangana, India  
-**Education:** B.Tech CSE (AI/ML) - Expected Graduation 2025  
+**Education:** B.Tech CSE (AI/ML) - Expected Graduation 2026  
 **Languages:** Telugu (Native), English (Professional), Hindi (Basic)
 
 ---
